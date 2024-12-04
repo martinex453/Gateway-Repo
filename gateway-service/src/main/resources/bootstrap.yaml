@@ -5,12 +5,7 @@ spring:
     config:
       enabled: true
       uri: http://${CF_HOST}:8081
-    discovery:
-      enabled: true
-      eureka:
-        client:
-          service-url:
-            defaultZone: http://${CF_HOST}:8761/eureka
+
 
 management:
   endpoints:
